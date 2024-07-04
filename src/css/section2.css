@@ -1,0 +1,51 @@
+.section2 {
+  height: 864px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section2-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.section2-header h1 {
+  font-size: 55px;
+}
+
+.section2-cards {
+  width: 100%;
+  height: 100%;
+}
+
+.section2-cards-container {
+  display: flex;
+  column-gap: 23px;
+}
+
+.section2-card {
+  display: flex;
+  position: relative;
+}
+
+.section2-card-desc {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  color: white;
+  top: 5%;
+  left: 7%;
+}
+
+.section2-card-desc-header {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section2-card-desc-details {
+  font-size: 1rem;
+  font-weight: 200;
+}

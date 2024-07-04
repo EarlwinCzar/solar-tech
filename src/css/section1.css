@@ -1,0 +1,50 @@
+.section1 {
+  height: 842.4px;
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.section1-container {
+  position: relative;
+  width: 1287.2px;
+  height: 602.37px;
+}
+
+.section1-hero-picture {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-image-gradient {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, black 20%, transparent);
+  position: absolute;
+  border-radius: 10px;
+}
+
+.section1-hero-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-description {
+  z-index: 1;
+  font-size: 70px;
+  font-weight: 800;
+  color: white;
+  word-wrap: break-word;
+  white-space: pre-line;
+  text-transform: uppercase;
+  position: absolute;
+  top: 18%;
+  left: 5%;
+}
+
+.solutions-highlight {
+  color: #ee0000;
+}
